@@ -1,10 +1,5 @@
-with open('Random_list.txt') as list_file:      # open file for reading
-    file_cont = list_file.read()                # read file content into the variable
-rl = file_cont.split(',')                       # create the list from file content
-
-for i in range(len(rl)):                        # convert all list elements from str to int
-    rl[i] = int(rl[i])
-
+import random                                   # import random module
+rl = random.sample(range(0, 1001), 100)         # create list of 100 elements from 1 to 1000
 print('Input list - ', rl)                      # print input list
 
 ####sort list from min to max (without using sort())#########
