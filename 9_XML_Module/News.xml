@@ -1,0 +1,18 @@
+<publication>
+	<type name="News">
+		<text>Some news</text>
+		<city>London</city>
+	</type>
+	<type name="News">
+		<text>Tottenham Hotspur are expected to agree the departure of their Italian manager Antonio Conte, 53, this week, with former player</text>
+		<city>Manchester </city>
+	</type>
+	<type name="Private Ad">
+		<text>Get started with free personalised support. Create your custom ad plan with a Google Ads Expert.</text>
+		<exp_date>23/04/2023</exp_date>
+	</type>
+	<type name="Forecast">
+		<city>Barcelona</city>
+		<degree>5</degree>
+	</type>
+</publication>
