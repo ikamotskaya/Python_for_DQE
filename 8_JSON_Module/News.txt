@@ -1,0 +1,6 @@
+1|ADSThe first news, is about...| Minsk
+1|The second news, ... |LepEL
+1|The third news, ...| London
+2|Advetruuuuuuu|25/03/2023
+3|LONDON|-8
+1|SOME news, ....|   PINSK
