@@ -1,0 +1,19 @@
+{
+    "publication": [
+        {
+           "type": "1",
+            "text": "Some news1 ...",
+            "city": "Minsk"
+        },
+        {
+            "type": "2",
+            "text": "Some text of adv1 ...",
+            "exp_date": "23/03/2023"
+        },
+        {
+            "type": "3",
+            "city": "Minsk",
+            "degree": "-10"
+        }
+    ]
+}
