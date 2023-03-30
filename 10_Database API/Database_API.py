@@ -346,11 +346,8 @@ class DBConnection:
               f"AND {list_fields[2]} = '{list_values[2]}'"
         print(sql)
         self.cur.execute(sql)
-        print(self.cur.fetchall())      # why fetchall return the list of tuples , but fetchone() is None???
         r = self.cur.fetchone()
-        print(r)
         if r is None:
-            print('True')
             return True
         else:
             return False
@@ -391,10 +388,5 @@ def main():
 
 
 if __name__ == "__main__":
-    # con = pyodbc.connect('DRIVER={SQLite3 ODBC Driver};Direct=True;Database=publications.db')
-    # cur = con.cursor()
-    # cur.execute('select * from news')
-    # print(cur.fetchall())
-
     main()
 
